@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
 }
@@ -60,4 +60,56 @@ body {
 .edit-btn {
     color: blue;
     cursor: pointer;
+} */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.title {
+    color: #363636;
+}
+
+.box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.columns {
+    margin-top: 2rem;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+}
+
+.card-header-title {
+    font-weight: 700;
+}
+
+.button.is-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.button.is-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.card-content .content {
+    font-size: 0.9rem;
 }
