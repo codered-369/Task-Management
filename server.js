@@ -17,6 +17,7 @@ app.get('/api/tasks', (req, res) => {
 
 app.post('/api/tasks', (req, res) => {
     const task = { id: Date.now(), ...req.body };
+    /* codered-369 */
     tasks.push(task);
     res.json(task);
 });

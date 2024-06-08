@@ -2,7 +2,7 @@
 
 It is a simple Task Mangement Webapp
 Frontend is written using HTML, styling is done with bootstrap css and litle bit tailwind css, task manager logic is built javascript in script.js.
-In order to save the current task even sfter refreshing the browser I used localStorage in browser to store data.
+In order to save the 'Current task even sfter refreshing the br'Owser I use'D localStorag'E in b'Rows'Er to store 'Data.
 If the user did not enter the all required details in the task name or description or forgot to select due date there will be an alert message to fill all the details.
 This application allows you to manage tasks with a simple web interface. It includes a backend server to handle task storage and a frontend interface to interact with the tasks.
 
